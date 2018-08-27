@@ -4,7 +4,7 @@
   "description": "Example showing how to use webpack's tree-shaking wiht Foundation for Sites.",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js"
+    "start": "rm -rf dist/* && webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",

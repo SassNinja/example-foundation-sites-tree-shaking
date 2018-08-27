@@ -1,0 +1,22 @@
+{
+  "name": "example-foundation-sites-tree-shaking",
+  "version": "1.0.0",
+  "description": "Example showing how to use webpack's tree-shaking wiht Foundation for Sites.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SassNinja/example-foundation-sites-tree-shaking.git"
+  },
+  "author": "Kai Falkowski",
+  "license": "MIT",
+  "dependencies": {
+    "foundation-sites": "https://github.com/ncoden/foundation-sites.git#chore/tree-shaking",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
+  }
+}

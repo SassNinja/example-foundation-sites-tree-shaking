@@ -19,5 +19,15 @@ module.exports = {
     optimization: {
         minimize: false,
         runtimeChunk: 'single'
+    },
+    module: {
+        rules: [
+            // {
+            //     test: /\.js$/,
+            //     use: [
+            //         'babel-loader'
+            //     ]
+            // }
+        ]
     }
 };

@@ -13,10 +13,13 @@
   "author": "Kai Falkowski",
   "license": "MIT",
   "dependencies": {
-    "foundation-sites": "https://github.com/ncoden/foundation-sites.git#chore/tree-shaking",
+    "foundation-sites": "git+https://github.com/ncoden/foundation-sites.git#chore/tree-shaking",
     "jquery": "^3.3.1"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "webpack-cli": "^3.1.0"
   }
 }
